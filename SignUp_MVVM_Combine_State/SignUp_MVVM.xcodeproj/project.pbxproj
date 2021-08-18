@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF5D0F226C5563B00304FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D0F126C5563B00304FDC /* AppDelegate.swift */; };
+		EDF5D0F426C5563B00304FDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D0F326C5563B00304FDC /* SceneDelegate.swift */; };
+		EDF5D0F626C5563B00304FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D0F526C5563B00304FDC /* ViewController.swift */; };
+		EDF5D0F926C5563B00304FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF5D0F726C5563B00304FDC /* Main.storyboard */; };
+		EDF5D0FB26C5563C00304FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF5D0FA26C5563C00304FDC /* Assets.xcassets */; };
+		EDF5D0FE26C5563C00304FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF5D0FC26C5563C00304FDC /* LaunchScreen.storyboard */; };
+		EDF5D10B26C556CE00304FDC /* SignUpValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D10A26C556CE00304FDC /* SignUpValidator.swift */; };
+		EDF5D10D26C556D500304FDC /* PasswordSotrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D10C26C556D500304FDC /* PasswordSotrage.swift */; };
+		EDF5D11026C55B9700304FDC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D10F26C55B9700304FDC /* UITextField+Extensions.swift */; };
+		EDF5D11226C55BB500304FDC /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D11126C55BB500304FDC /* UIButton+Extensions.swift */; };
+		EDF5D11526C55E2C00304FDC /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5D11426C55E2C00304FDC /* SignUpViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDF5D0EE26C5563B00304FDC /* SignUp_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF5D0F126C5563B00304FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF5D0F326C5563B00304FDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF5D0F526C5563B00304FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF5D0F826C5563B00304FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF5D0FA26C5563C00304FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF5D0FD26C5563C00304FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF5D0FF26C5563C00304FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF5D10A26C556CE00304FDC /* SignUpValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidator.swift; sourceTree = "<group>"; };
+		EDF5D10C26C556D500304FDC /* PasswordSotrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSotrage.swift; sourceTree = "<group>"; };
+		EDF5D10F26C55B9700304FDC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		EDF5D11126C55BB500304FDC /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		EDF5D11426C55E2C00304FDC /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF5D0EB26C5563B00304FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF5D0E526C5563B00304FDC = {
+			isa = PBXGroup;
+			children = (
+				EDF5D0F026C5563B00304FDC /* SignUp_MVVM */,
+				EDF5D0EF26C5563B00304FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF5D0EF26C5563B00304FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D0EE26C5563B00304FDC /* SignUp_MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF5D0F026C5563B00304FDC /* SignUp_MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D10E26C55B8300304FDC /* Extension */,
+				EDF5D10926C556BF00304FDC /* AppLifeCycle */,
+				EDF5D10826C556A800304FDC /* Resource */,
+				EDF5D10726C5569E00304FDC /* View */,
+				EDF5D11326C55E1D00304FDC /* ViewModel */,
+				EDF5D10526C5569600304FDC /* Model */,
+			);
+			path = SignUp_MVVM;
+			sourceTree = "<group>";
+		};
+		EDF5D10526C5569600304FDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D10A26C556CE00304FDC /* SignUpValidator.swift */,
+				EDF5D10C26C556D500304FDC /* PasswordSotrage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDF5D10726C5569E00304FDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D0F526C5563B00304FDC /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDF5D10826C556A800304FDC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D0F726C5563B00304FDC /* Main.storyboard */,
+				EDF5D0FA26C5563C00304FDC /* Assets.xcassets */,
+				EDF5D0FC26C5563C00304FDC /* LaunchScreen.storyboard */,
+				EDF5D0FF26C5563C00304FDC /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EDF5D10926C556BF00304FDC /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D0F126C5563B00304FDC /* AppDelegate.swift */,
+				EDF5D0F326C5563B00304FDC /* SceneDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		EDF5D10E26C55B8300304FDC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D10F26C55B9700304FDC /* UITextField+Extensions.swift */,
+				EDF5D11126C55BB500304FDC /* UIButton+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EDF5D11326C55E1D00304FDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5D11426C55E2C00304FDC /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF5D0ED26C5563B00304FDC /* SignUp_MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF5D10226C5563C00304FDC /* Build configuration list for PBXNativeTarget "SignUp_MVVM" */;
+			buildPhases = (
+				EDF5D0EA26C5563B00304FDC /* Sources */,
+				EDF5D0EB26C5563B00304FDC /* Frameworks */,
+				EDF5D0EC26C5563B00304FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignUp_MVVM;
+			productName = SignUp_MVC;
+			productReference = EDF5D0EE26C5563B00304FDC /* SignUp_MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF5D0E626C5563B00304FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDF5D0ED26C5563B00304FDC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EDF5D0E926C5563B00304FDC /* Build configuration list for PBXProject "SignUp_MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF5D0E526C5563B00304FDC;
+			productRefGroup = EDF5D0EF26C5563B00304FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF5D0ED26C5563B00304FDC /* SignUp_MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF5D0EC26C5563B00304FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5D0FE26C5563C00304FDC /* LaunchScreen.storyboard in Resources */,
+				EDF5D0FB26C5563C00304FDC /* Assets.xcassets in Resources */,
+				EDF5D0F926C5563B00304FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF5D0EA26C5563B00304FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF5D10D26C556D500304FDC /* PasswordSotrage.swift in Sources */,
+				EDF5D11226C55BB500304FDC /* UIButton+Extensions.swift in Sources */,
+				EDF5D11526C55E2C00304FDC /* SignUpViewModel.swift in Sources */,
+				EDF5D11026C55B9700304FDC /* UITextField+Extensions.swift in Sources */,
+				EDF5D10B26C556CE00304FDC /* SignUpValidator.swift in Sources */,
+				EDF5D0F626C5563B00304FDC /* ViewController.swift in Sources */,
+				EDF5D0F226C5563B00304FDC /* AppDelegate.swift in Sources */,
+				EDF5D0F426C5563B00304FDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF5D0F726C5563B00304FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF5D0F826C5563B00304FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF5D0FC26C5563C00304FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF5D0FD26C5563C00304FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF5D10026C5563C00304FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF5D10126C5563C00304FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF5D10326C5563C00304FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignUp_MVVM/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olaf.SignUp-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF5D10426C5563C00304FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignUp_MVVM/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.olaf.SignUp-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF5D0E926C5563B00304FDC /* Build configuration list for PBXProject "SignUp_MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5D10026C5563C00304FDC /* Debug */,
+				EDF5D10126C5563C00304FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF5D10226C5563C00304FDC /* Build configuration list for PBXNativeTarget "SignUp_MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF5D10326C5563C00304FDC /* Debug */,
+				EDF5D10426C5563C00304FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF5D0E626C5563B00304FDC /* Project object */;
+}
