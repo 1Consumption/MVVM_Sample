@@ -12,23 +12,23 @@ final class SignUpViewModel {
     private let validator: Validator
     
     private var id: TextState = .empty {
-        willSet {
-            idHandler?(newValue)
+        didSet {
+            idHandler?(id)
         }
     }
     private var password: TextState = .empty {
-        willSet {
-            passwordHandler?(newValue)
+        didSet {
+            passwordHandler?(password)
         }
     }
     private var confirmPassword: TextState = .empty {
-        willSet {
-            confirmPasswordHandler?(newValue)
+        didSet {
+            confirmPasswordHandler?(confirmPassword)
         }
     }
     private var validatedAll: Bool = false {
-        willSet {
-            validatedAllHandler?(newValue)
+        didSet {
+            validatedAllHandler?(validatedAll)
         }
     }
     

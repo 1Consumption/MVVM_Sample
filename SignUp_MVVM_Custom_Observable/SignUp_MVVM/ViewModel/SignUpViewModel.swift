@@ -56,8 +56,8 @@ final class SignUpViewModel {
 final class Observable<Element> {
     
     var value: Element {
-        willSet {
-            handler?(newValue)
+        didSet {
+            handler?(value)
         }
     }
     

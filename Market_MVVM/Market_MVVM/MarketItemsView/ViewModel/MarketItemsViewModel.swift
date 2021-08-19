@@ -29,14 +29,14 @@ final class MarketItemsViewModel {
     private var handler: ((MarketItemsViewModelState) -> Void)?
     
     private(set) var marketItems: [MarketItem] = [] {
-        willSet {
-            let indexPath = (marketItems.count..<newValue.count).map { IndexPath(item: $0, section: 0) }
+        didSet {
+            let indexPath = (oldValue.count..<marketItems.count).map { IndexPath(item: $0, section: 0) }
             state = .update(indexPath)
         }
     }
     private var state: MarketItemsViewModelState = .empty {
-        willSet {
-            handler?(newValue)
+        didSet {
+            handler?(state)
         }
     }
     

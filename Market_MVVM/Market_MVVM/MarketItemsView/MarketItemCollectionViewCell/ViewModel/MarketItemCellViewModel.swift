@@ -38,9 +38,9 @@ final class MarketItemCellViewModel {
     private var imageTask: URLSessionDataTask?
     private var handler: ((MarketItemCellViewModelState) -> Void)?
     private var state: MarketItemCellViewModelState = .empty {
-        willSet {
+        didSet {
             DispatchQueue.main.async { [weak self] in
-                self?.handler?(newValue)
+                self?.handler?(state)
             }
         }
     }
